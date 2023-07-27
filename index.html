@@ -28,10 +28,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-------------------font awesome icon----------------->
+    <!---------------- font awesome icon -------------->
     <script src="https://kit.fontawesome.com/69fa576880.js" crossorigin="anonymous"></script>
 
-    <!----------------fonts style--------------------->
+    <!------------------- Fav Icon -------------------->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!----------------- fonts style -------------------->
     <style>
         .poppins {
             font-family: 'Poppins', sans-serif;
@@ -43,7 +46,7 @@
 <body class="poppins">
     
     <!-----------------header section------------------->
-    <header class="md:container md:mx-auto">
+    <header class="md:container md:mx-auto relative">
         <!---------------Nav Bar Section------------------>
         <nav class="py-10">
             <div class="navbar bg-[#F85559] rounded-full">
@@ -167,23 +170,56 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
+        </div>
 
+        <!--------------- Banner Fruits Badge Section ---------------->
+        <div class="absolute hidden md:flex md:gap-20 items-center -bottom-20 left-32 bg-white rounded-lg md:p-6 shadow-sm">
+            
+            <!--------- Fruits 1 ------------>
+            <div>
+                <img src="./images/fruit1.png" alt="">
+                <p class="text-center md:py-4">Grapes</p>
+            </div>
+
+            <!--------- Fruits 2 ------------>
+            <div>
+                <img src="./images/fruit2.png" alt="">
+                <p class="text-center md:py-4">Orange</p>
+            </div>
+
+            <!--------- Fruits 3 ------------>
+            <div>
+                <img src="./images/fruit3.png" alt="">
+                <p class="text-center md:py-4">Mango</p>
+            </div>
+
+            <!--------- Fruits 4 ------------>
+            <div>
+                <img src="./images/fruit4.png" alt="">
+                <p class="text-center md:py-4">Strawberry</p>
+            </div>
+
+            <!--------- Fruits 5 ------------>
+            <div>
+                <img src="./images/fruit5.png" alt="">
+                <p class="text-center md:py-4">punica Granatum</p>
+            </div>
         </div>
     </header>
 
     <!----------------------main section------------------------------>
     <main>
 
-        <!--------------- Deal of the section ---------------------->
-        <section class="md:container md:mx-auto mt-40">
-            <div class="flex flex-col md:flex-row justify-between">
+        <!--------------------- Deal of the section ------------------------>
+        <section class="md:container md:mx-auto md:mt-52">
+            <div class="flex flex-col md:flex-row justify-between md:my-10">
                 <div class="space-y-5">
                     <h3 class="text-4xl font-extrabold">Deal of the day</h3>
                     <p class="text-sm text-primary-text leading-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
 
                 <!------------ Countdown Status Section ------------->
-                <div class="stats shadow ">
+                <div class="stats shadow-sm">
   
                     <!-------- Countdown Status Days-->
                     <div class="stat">
@@ -409,7 +445,7 @@
         </section>
 
 
-        <!-------------- Team Section --------------->
+        <!-------------------- Team Section ------------------------>
         <section class="md:container md:mx-auto md:mb-20">
             <div>
                 <div class="hero rounded-xl" style="background-image: url(./images/team.png);">
@@ -463,16 +499,16 @@
             </div>
         </section>
 
-        <!-------------- Why Choose Us Section ------------->
+        <!---------------------- Why Choose Us Section ---------------------->
         <section class="md:container md:mx-auto md:mb-28">
 
-            <!-------------- Text Container --------------->
+            <!---------------------- Text Container -------------------------->
             <div class="text-center md:py-5">
                 <h1 class="text-4xl font-bold">Why Choose Us</h1>
                 <p class="md:my-5 font-light text-sm leading-6 text-primary-text">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
-            <!------------ Highlighted container ------------->
+            <!--------------------- Highlighted container --------------------->
             <div class="flex flex-col-reverse md:flex-row justify-between items-center">
                 <div class="flex flex-col items-center">
                     
@@ -585,7 +621,5 @@
         </div>
     </footer>
 
-</body>
-
-    
+</body>   
 </html>
